@@ -1,0 +1,44 @@
+body {
+  padding-top: 200px;
+}
+.buttons_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+ 
+.my-button {
+    background-color: #e73305;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    cursor: pointer;
+    border-radius: 50px 0px 50px 0px;
+    transition: all 0.3s ease-in-out;
+  }
+  .my-button:hover {
+    background-color: #e73305;
+    transform: scale(1.05);
+  }
+ 
+  .hotels-button-clicked {
+    color: #e73305;
+    background-color:rgb(182, 180, 180);;
+
+    border-radius: 50px 50px 50px 50px;
+   
+  
+  }
+  
+  .restaurants-button-clicked {
+    color:#e73305;
+    background-color: rgb(182, 180, 180);
+    border-radius: 50px 50px 50px 50px;
+     
+  }

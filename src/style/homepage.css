@@ -1,0 +1,95 @@
+/* ========= Homepage ========== */
+
+.base{
+    color: white;
+}
+
+.homepage{
+    min-height: calc(100vh); /* ensure enough space for content */
+    padding-top: 220px;
+    color: white;   
+}
+
+.home-text{
+    padding-left: 50%;
+}
+ 
+#heading{
+    font-family: "Playfair Display", serif !important;
+    font-size: 2vw;
+    padding-left: 20%;
+ 
+    font-style: normal;
+    font-weight: 400;
+    font-size:40px;
+    line-height: 75px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: rgba(11, 6, 41, 0.7);;
+    align-items: center;
+}
+
+.header-img{
+    display: inline-block;
+    width: 800px;
+    margin-right: 50px;
+    margin-top: -400px;
+}
+
+.home-text p{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size:30px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    color: rgb(127, 127, 127);
+}
+
+.explore-btn{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 64px;
+    letter-spacing: 1px;
+    color:  #0d012c;
+    border-radius: 50%;
+    padding: 80px 30px;
+    border: 0;
+    background-color: hsl(26, 95%, 42%);
+    text-transform: uppercase;
+    float: right;
+    margin-right: 20%;
+    cursor: pointer;
+    display: block;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.explore-btn:hover{
+    transform: scale(1.05);
+}
+
+.explore-btn::after{
+    content: "";
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(34, 12, 140, 0.25);
+    position: absolute;
+    display: block;
+    width: 250px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.explore-btn:hover::after{
+    box-shadow: 0 0 0 10px rgba(34, 12, 140, 0.25);
+}
+
+ 
+ 

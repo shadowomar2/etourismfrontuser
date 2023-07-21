@@ -1,0 +1,88 @@
+.user-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-page h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .user-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .user-page label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .user-page input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .user-page button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .user-page button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .user-page table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .user-page th,
+  .user-page td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-page th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .user-page tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user-page button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .user-page button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .user-page p {
+    font-size: 16px;
+    margin-top: 16px;
+  }

@@ -1,0 +1,17 @@
+.footer {
+  background-color: #0d012c;
+  padding: 20px 0;
+  bottom: 0;
+ 
+  width: 100%;
+}
+
+.copywrite {
+  text-align: center;
+}
+
+.copywrite p {
+  margin: 0;
+  font-size: 14px;
+  color: #999;
+}
